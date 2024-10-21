@@ -40,3 +40,27 @@ Prerequisites
 Node.js
 MongoDB
 JDoodle API credentials (sign up for an account at JDoodle to obtain your API keys)
+
+
+Installation
+Clone the repository:
+
+Install dependencies for both client and server:
+Navigate to the client and server directories and run npm install
+
+Set up environment variables:
+In the server folder, create a .env file to store your environment variables
+
+Start the client and server
+
+Access the application:
+Open your browser and go to http://localhost:3000 to use CODERRR.
+
+API Endpoints
+JDoodle API Integration
+The backend is integrated with the JDoodle API for code compilation. Here’s an example of the API used for compiling code
+
+Room Management
+Join Room: A user can join a room using the room ID.
+Leave Room: Users can exit rooms at any time, removing them from the collaborative session.
+
